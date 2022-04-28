@@ -1,13 +1,64 @@
-# Aula 05 - Primeiro projeto com React
 
-Nessa aula foi desenvolvido uma página que faz requisição para a API de repositórios do GitHub e alimenta nossa lista de repositórios na página.
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=E51C44&labelColor=0A1033">
 
-**Para roda esse projeto, instale as libs com o comando **yarn** e rode o projeto com o comando **yarn start***
+ <img src="https://img.shields.io/static/v1?label=NLW&message=06&color=E51C44&labelColor=0A1033" alt="NLW 06" />
+</p>
 
-Com o projeto rodando, acesse do seu browser http://localhost:3000/
 
-![Imagem](https://github.com/thiagocdn/aulas-bootcamp-GoStack11-rocketseat/blob/master/05-primeiro-projeto-react/images/browser_aula05.gif?raw=true)
+![cover](.github/cover.png?style=flat)
 
-Esse projeto salva os dados no LocalStorage do browser, assim ao atualizar a página ele não perde os dados anteriores. Para acessar o Local Storage entre em "inspeciona", vá na aba "Application" e "Local Storage":
 
-![Imagem](https://github.com/thiagocdn/aulas-bootcamp-GoStack11-rocketseat/blob/master/05-primeiro-projeto-react/images/LocalStorage.png?raw=true)
+## 💻 Projeto
+Aplicativo de página única ( SPA ) criado com ReactJS e TypeScript para explorar repositórios do GitHub. Este projeto permite salvar e listar repositórios e oferece uma maneira fácil de acessar a página de problemas do repositório.
+
+Ele foi construído como um exercício do GoStack Bootcamp da Rocketseat para colocar em prática os estudos de ReactJS, React Hooks, Styled Components, React Router Dom, layout responsivo e GitHub Pages para deploy.
+
+Este projeto se conecta à API oficial do GitHub para obter os dados.
+
+## ✨ Tecnologias
+
+-   [ ] ReactJS
+-   [ ] React Hooks
+-   [ ] Styled Components
+-   [ ] React Router Dom
+-   [ ] Typescript
+-   [ ] Prettier
+-   [ ] Eslint
+-   [ ] Axios
+
+## 🏁 Pré-requisitos <a name = "getting_started"></a>
+
+O que você precisa para instalar o software e como instalá-los.
+
+**NodeJS** <br>
+[NodeJS](https://nodejs.org/en/)
+
+**Um gerenciador de pacotes JavaScript como NPM ou Yarn** <br>
+[Node.js](https://nodejs.org/en/)
+[Yarn](https://yarnpkg.com/pt-BR/docs/install)
+
+**Git instalado em sua máquina (Mac e Linux já tem Git instalado por padrão)** <br>
+[Baixe o Git para seu SO](https://git-scm.com/downloads)
+
+## 🚀 Instalação
+
+#### modo de desenvolvimento (executando localmente)
+
+```shell
+git clone https://github.com/Felipe-007/Github-Explorer.git
+cd github-explorer
+yarn
+yarn start
+http://localhost:3000
+```
+
+## 📄 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+<br />
+
+<div align="center">
+  <small>Agradecimentos ao professor Diego Schell Fernandes</small>
+</div>
